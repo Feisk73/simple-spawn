@@ -1,0 +1,25 @@
+name: SimpleSpawn
+main: org.feisk73.MainSpawn
+version: "1.0.0"
+api: [ "1.0.0" ]
+
+author: feisk73
+description: Simple spawn command
+
+commands:
+  spawn:
+    description: Teleport to spwn
+    usage: "/spawn"
+    permission: simplespawn.spawn
+  setspawn:
+     description: Make spawn location
+     usage: "/setspawn"
+     permission: simplespawn.setspawn
+
+permissions:
+  simplespawn.spawn:
+    description: "Teleport to spawn"
+    default: true
+  simplespawn.setspawn:
+    description: "Make spawn location"
+    default: op
