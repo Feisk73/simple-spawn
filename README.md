@@ -3,7 +3,7 @@
 
 This plugin adds `/spawn` and `/setspawn` commands to manage the spawn point.
 
-## 🛠 Команды
+## 🛠 Commands
 
 | Command     | Permission             | Default |
 |-------------|------------------------|---------|
